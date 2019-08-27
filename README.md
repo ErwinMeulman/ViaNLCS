@@ -6,4 +6,4 @@ xcopy "C:\Program Files (x86)\Autodesk\ApplicationPlugins\ViaNLCS.bundle\Content
 
 "C:\Program Files (x86)\Autodesk\ApplicationPlugins\ViaNLCS.bundle\PackageContents.xml"
 
-https://github.com/ErwinMeulman/ViaNLCS/blob/master/ViaNLCS.png?raw=true
+![Screenshot](https://github.com/ErwinMeulman/ViaNLCS/blob/master/ViaNLCS.png?raw=true)
