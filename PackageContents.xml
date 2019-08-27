@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" ProductType="Application" Name="ViaNLCS" AppVersion="1.2.68" FriendlyVersion="1.2" Description="ViaNLCS" Author="Frank Lenoir" Icon="./Contents/Resources/ViaNLCS_64.bmp" OnlineDocumentation="http://vianlcs.nl/w/index.php?title=ViaNLCS_1" HelpFile="./Contents/Resources/ViaNLCS Help.htm" ProductCode="{3032CE37-458C-453D-AA25-0FCA81022DAD}">
+ <CompanyDetails Name="ViaTools" Phone="" Url="www.vianlcs.nl" Email=""/>
+ <Components Description="ViaNLCS voor AutoCAD 2016">
+  <RuntimeRequirements SupportPath="" Platform="AutoCAD|AutoCAD*" OS="Win32|Win64" SeriesMin="R20.1" SeriesMax="R20.1"/>
+  <ComponentEntry AppName="ViaNLCS" Version="1.2.68" ModuleName="./Contents/Windows/2016/ViaNLCS.AutoCAD.dll" AppDescription="ViaNLCS" LoadOnAppearance="True">
+   <Commands GroupName="VIANLCS">
+    <Command Local="VIANLCS" Global="VIANLCS"/>
+   </Commands>
+  </ComponentEntry>
+ </Components>
+ <Components Description="ViaNLCS voor AutoCAD 2017">
+  <RuntimeRequirements SupportPath="" Platform="AutoCAD|AutoCAD*" OS="Win32|Win64" SeriesMin="R21.0" SeriesMax="R21.0"/>
+  <ComponentEntry AppName="ViaNLCS" Version="1.2.68" ModuleName="./Contents/Windows/2017/ViaNLCS.AutoCAD.dll" AppDescription="ViaNLCS" LoadOnAppearance="True">
+   <Commands GroupName="VIANLCS">
+    <Command Local="VIANLCS" Global="VIANLCS"/>
+   </Commands>
+  </ComponentEntry>
+ </Components>
+ <Components Description="ViaNLCS voor AutoCAD 2018">
+  <RuntimeRequirements SupportPath="" Platform="AutoCAD|AutoCAD*" OS="Win32|Win64" SeriesMin="R22.0" SeriesMax="R22.0"/>
+  <ComponentEntry AppName="ViaNLCS" Version="1.2.68" ModuleName="./Contents/Windows/2018/ViaNLCS.AutoCAD.dll" AppDescription="ViaNLCS" LoadOnAppearance="True">
+   <Commands GroupName="VIANLCS">
+    <Command Local="VIANLCS" Global="VIANLCS"/>
+   </Commands>
+  </ComponentEntry>
+ </Components>
+ <Components Description="ViaNLCS voor AutoCAD 2019">
+  <RuntimeRequirements SupportPath="" Platform="AutoCAD|AutoCAD*" OS="Win32|Win64" SeriesMin="R23.0" SeriesMax="R23.0"/>
+  <ComponentEntry AppName="ViaNLCS" Version="1.2.68" ModuleName="./Contents/Windows/2019/ViaNLCS.AutoCAD.dll" AppDescription="ViaNLCS" LoadOnAppearance="True">
+   <Commands GroupName="VIANLCS">
+    <Command Local="VIANLCS" Global="VIANLCS"/>
+   </Commands>
+  </ComponentEntry>
+ </Components>
+  <Components Description="ViaNLCS voor AutoCAD 2020">
+  <RuntimeRequirements SupportPath="" Platform="AutoCAD|AutoCAD*" OS="Win32|Win64" SeriesMin="R24.0" SeriesMax="R24.0"/>
+  <ComponentEntry AppName="ViaNLCS" Version="1.2.68" ModuleName="./Contents/Windows/2020/ViaNLCS.AutoCAD.dll" AppDescription="ViaNLCS" LoadOnAppearance="True">
+   <Commands GroupName="VIANLCS">
+    <Command Local="VIANLCS" Global="VIANLCS"/>
+   </Commands>
+  </ComponentEntry>
+ </Components>
+ <Components Description="CUI">
+  <RuntimeRequirements SupportPath="./Contents/Resources/" OS="Win32|Win64" Platform="AutoCAD|AutoCAD*" SeriesMin="R20.1" SeriesMax="R23.0"/>
+  <ComponentEntry AppName="ViaNLCSv1" ModuleName="./Contents/Resources/ViaNLCSv1.cuix"/>
+ </Components>
+</ApplicationPackage>
